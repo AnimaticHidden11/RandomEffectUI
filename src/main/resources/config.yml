@@ -1,0 +1,33 @@
+# EN:RandomEffectsUI Configuration
+# RU:Конфигурация RandomEffectsUI
+
+interval-seconds: 30      #RU: Время через которое эффект активируется
+                          #EN: The time after which the effect is activated
+
+bad-chance: 80           #RU: Шанс плохих эффектов (%)
+                         #EN: Chance of bad effects (%)
+
+duration-min: 10          #RU: Минимальная и максимальная длительность эффекта
+duration-max: 20          #EN: Minimum and maximum duration of the effect
+
+min-level: 1            #RU: Уровень эффекта
+max-level: 4            #EN: Effect level
+
+language: en            #RU: Язык Плагина в самой игре (Доступен только EN/RU)
+                        #EN: The language of the plugin in the game itself (Available only EN/RU)
+
+disabled-effects:                         #RU: Отключенные эффекты
+- "INSTANT_DAMAGE"                        #EN: Disabled effects
+
+enabled-worlds:                           #RU: Миры в котором будет работать плагин
+  - "world"                               #EN: Worlds where the plugin will work
+  - "world_nether"
+  - "world_the_end"
+
+
+command-only-for-op: false                #RU: Игроки, которые являются операторами, могут только они запускать плагин (По умолчанию все могут пользоваться)
+                                          #EN: Players who are operators can only run the plugin (By default, everyone can use it)
+
+show-join-message: true                  #RU: При входе в мир/сервер для игрока высвечивается подсказка в чате (По умолчанию высвечивает подсказки)
+                                         #EN: When entering the world/server, a chat prompt is displayed for the player (Displays hints by default)
+

@@ -1,0 +1,9 @@
+name: RandomEffectsUI
+version: 2.0
+main: com.randomeffectsui.RandomEffectsUI
+api-version: "1.21"
+
+commands:
+  Effect:
+    description: "Enable or disable RandomEffectsUI"
+    usage: "/Effect RandomEffectsUI <true/false>"
